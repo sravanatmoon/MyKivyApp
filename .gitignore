@@ -51,3 +51,4 @@ venv/
 *.pdb
 *.idb
 __pycache__/config.cpython-312.pyc
+__pycache__/tinxy_controller.cpython-312.pyc

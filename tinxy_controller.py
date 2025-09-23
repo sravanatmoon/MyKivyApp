@@ -147,9 +147,13 @@ class TinxyController:
         }
         return state_map.get(state)
 
-# Global controller instance
-# API_KEY = ""  # Set your API key here
-API_KEY = "beadc11c0218338c6e151f4bb0a0fd083626074a"
+# Global controller instance - FIXED CIRCULAR IMPORT
+try:
+    from mobile_config import API_TOKEN
+    API_KEY = API_TOKEN
+except ImportError:
+    API_KEY = ""  # Fallback if mobile_config not available
+    
 _controller = None
 
 def get_controller():
