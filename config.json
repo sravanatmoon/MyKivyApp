@@ -1,0 +1,289 @@
+[
+    {
+        "isArchived": false,
+        "_id": "649d9d4dd6587b445bdcd3af",
+        "name": "MB",
+        "enabled": true,
+        "userId": "6463a4cfea1d1bf0bd303e8e",
+        "switchType": "SWITCH",
+        "toggleDelay": 250,
+        "devices": [
+            "Fan",
+            "Bed Light",
+            "Corner lights",
+            "Balcony light"
+        ],
+        "deviceTypes": [
+            "Fan",
+            "LED Dimmable Bulb",
+            "Tubelight",
+            "LED Bulb"
+        ],
+        "notificationOn": false,
+        "firmwareVersion": 66,
+        "registrationDate": "2023-06-29T15:03:41.164Z",
+        "remoteCodes": [],
+        "mqttPassword": "51f46ddecf",
+        "typeId": {
+            "_id": "5ef1b719160cf4fed1bfb462",
+            "primary": true,
+            "numberOfRelays": 4,
+            "name": "WIFI_3SWITCH_1FAN",
+            "gtype": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "long_name": "4 Node Fan Regulator Smart Switch",
+            "amazonReviewLink": "https://www.amazon.in/review/create-review/?asin=B08KZMB7HD",
+            "__v": 1,
+            "features": [
+                "SWITCH|FAN",
+                "SWITCH",
+                "SWITCH",
+                "SWITCH"
+            ],
+            "toggleDelay": 0
+        },
+        "uuidRef": {
+            "_id": "641c14ecf64671c162d0e964",
+            "uuid": "7728068",
+            "enabled": true,
+            "typeId": "5ef1b719160cf4fed1bfb462",
+            "byUserId": "60a8ebd69fa8190013ca8191",
+            "hasTransmitter": false,
+            "createdOn": "2023-03-23T08:59:24.604Z",
+            "__v": 0
+        },
+        "__v": 0
+    },
+    {
+        "isArchived": false,
+        "_id": "6526be0f47f9152bf2fcaec1",
+        "name": "DINING",
+        "enabled": true,
+        "userId": "6463a4cfea1d1bf0bd303e8e",
+        "switchType": "SWITCH",
+        "toggleDelay": 250,
+        "devices": [
+            "Fan",
+            "Camera",
+            "Drawing lights",
+            "Top lights",
+            "Router",
+            "Calling bell"
+        ],
+        "deviceTypes": [
+            "Fan",
+            "Socket",
+            "Tubelight",
+            "Tubelight",
+            "Socket",
+            "Music System"
+        ],
+        "notificationOn": false,
+        "firmwareVersion": 69,
+        "registrationDate": "2023-10-11T15:23:59.405Z",
+        "remoteCodes": [],
+        "mqttPassword": "e5333254fc",
+        "typeId": {
+            "_id": "5f584d9cc414ef4dc5930944",
+            "primary": true,
+            "numberOfRelays": 6,
+            "name": "WIFI_6SWITCH_V1",
+            "__v": 1,
+            "gtype": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "long_name": "6 Node Smart Switch",
+            "amazonReviewLink": "https://www.amazon.in/review/create-review/?asin=B08T6X3XMX",
+            "features": [
+                "SWITCH",
+                "SWITCH",
+                "SWITCH",
+                "SWITCH",
+                "SWITCH",
+                "SWITCH"
+            ],
+            "toggleDelay": 0
+        },
+        "uuidRef": {
+            "_id": "64f5a128c9b563f5bb3ab91b",
+            "uuid": "12813804",
+            "enabled": true,
+            "typeId": "5f584d9cc414ef4dc5930944",
+            "byUserId": "5c0ceb28f2bae300a44acf8f",
+            "hasTransmitter": false,
+            "createdOn": "2023-09-04T09:19:36.724Z",
+            "__v": 0
+        },
+        "__v": 1
+    },
+    {
+        "isArchived": false,
+        "_id": "664d8349c0f7bd6158c3f4bf",
+        "name": "Living Room",
+        "enabled": true,
+        "userId": "6463a4cfea1d1bf0bd303e8e",
+        "switchType": "SWITCH",
+        "toggleDelay": 250,
+        "devices": [
+            "Fan",
+            "Tubelight",
+            "LED Bulb",
+            "Dimmable Light"
+        ],
+        "deviceTypes": [
+            "Fan",
+            "Tubelight",
+            "LED Bulb",
+            "Dimmable Light"
+        ],
+        "notificationOn": false,
+        "firmwareVersion": 69,
+        "registrationDate": "2024-05-22T05:31:53.439Z",
+        "remoteCodes": [],
+        "mqttPassword": "47d2cc8d7e",
+        "typeId": {
+            "_id": "5ef1b719160cf4fed1bfb462",
+            "primary": true,
+            "numberOfRelays": 4,
+            "name": "WIFI_3SWITCH_1FAN",
+            "gtype": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "long_name": "4 Node Fan Regulator Smart Switch",
+            "amazonReviewLink": "https://www.amazon.in/review/create-review/?asin=B08KZMB7HD",
+            "__v": 1,
+            "features": [
+                "SWITCH|FAN",
+                "SWITCH",
+                "SWITCH",
+                "SWITCH"
+            ],
+            "toggleDelay": 0
+        },
+        "uuidRef": {
+            "_id": "64ce09f65c3d9dfa2d84b529",
+            "uuid": "15179090",
+            "enabled": true,
+            "typeId": "5ef1b719160cf4fed1bfb462",
+            "byUserId": "5c0ceb28f2bae300a44acf8f",
+            "hasTransmitter": false,
+            "createdOn": "2023-08-05T08:36:06.583Z",
+            "__v": 0
+        },
+        "__v": 0
+    },
+    {
+        "_id": "676287c86a284dd319cde2f0",
+        "name": "Living Room",
+        "enabled": true,
+        "userId": "6463a4cfea1d1bf0bd303e8e",
+        "switchType": "SWITCH",
+        "toggleDelay": 250,
+        "devices": [
+            "Fan",
+            "Smart lights",
+            "Bright lights",
+            "CB front light",
+            "Balcony light",
+            "LED Bulb"
+        ],
+        "deviceTypes": [
+            "Fan",
+            "LED Dimmable Bulb",
+            "LED Bulb",
+            "LED Bulb",
+            "LED Bulb",
+            "LED Bulb"
+        ],
+        "notificationOn": false,
+        "firmwareVersion": 71,
+        "isArchived": false,
+        "registrationDate": "2024-12-18T08:28:56.492Z",
+        "remoteCodes": [],
+        "mqttPassword": "4e249c7fdd",
+        "typeId": {
+            "_id": "5f584d9cc414ef4dc5930944",
+            "primary": true,
+            "numberOfRelays": 6,
+            "name": "WIFI_6SWITCH_V1",
+            "__v": 1,
+            "gtype": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "long_name": "6 Node Smart Switch",
+            "amazonReviewLink": "https://www.amazon.in/review/create-review/?asin=B08T6X3XMX",
+            "features": [
+                "SWITCH",
+                "SWITCH",
+                "SWITCH",
+                "SWITCH",
+                "SWITCH",
+                "SWITCH"
+            ],
+            "toggleDelay": 0
+        },
+        "uuidRef": {
+            "_id": "638dc4d984a58f7364832899",
+            "uuid": "6016286",
+            "enabled": true,
+            "typeId": "5f584d9cc414ef4dc5930944",
+            "byUserId": "60a8ebd69fa8190013ca8191",
+            "serialNumber": 11154769,
+            "hasTransmitter": false,
+            "createdOn": "2022-12-05T10:15:53.542Z",
+            "__v": 0
+        },
+        "__v": 0
+    },
+    {
+        "_id": "67716f575a9c28b88cfae560",
+        "name": "Common Geyser",
+        "enabled": true,
+        "userId": "6463a4cfea1d1bf0bd303e8e",
+        "switchType": "SWITCH",
+        "toggleDelay": 250,
+        "devices": [],
+        "deviceTypes": [
+            "Water Heater"
+        ],
+        "notificationOn": false,
+        "firmwareVersion": 75,
+        "isArchived": false,
+        "registrationDate": "2024-12-29T15:48:39.198Z",
+        "remoteCodes": [],
+        "mqttPassword": "133d02bf5b",
+        "typeId": {
+            "_id": "5f1a5f1cdb6bdc3374ecbb66",
+            "primary": true,
+            "numberOfRelays": 1,
+            "name": "WIFI_SWITCH_V2",
+            "gtype": "action.devices.types.SWITCH",
+            "traits": [
+                "action.devices.traits.OnOff"
+            ],
+            "long_name": "1 Node Smart Switch",
+            "amazonReviewLink": "https://www.amazon.in/review/create-review/?asin=B089SJYCVF",
+            "__v": 1,
+            "features": [
+                "SWITCH|RECIEVER"
+            ],
+            "toggleDelay": 0
+        },
+        "uuidRef": {
+            "_id": "669b7b5c260308fdacca42f6",
+            "uuid": "14538527",
+            "enabled": true,
+            "typeId": "6492bfa0bd2d2710b97b9f97",
+            "byUserId": "5c0ceb28f2bae300a44acf8f",
+            "hasTransmitter": false,
+            "createdOn": "2024-07-20T08:54:52.102Z",
+            "__v": 0
+        },
+        "__v": 0
+    }
+]
